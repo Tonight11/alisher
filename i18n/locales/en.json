@@ -1,0 +1,180 @@
+{
+    "seo":  {
+                "title":  "Clean-Tech Landing for the Chinese Market",
+                "description":  "A fast, minimal, and SEO-optimized landing page that presents product value and captures leads."
+            },
+    "header":  {
+                   "logoAlt":  "Project logo",
+                   "cta":  "Contact us",
+                   "lang":  {
+                                "en":  "EN",
+                                "zh":  "中文"
+                            },
+                   "mobile":  {
+                                  "open":  "Open menu",
+                                  "close":  "Close menu"
+                              },
+                   "nav":  {
+                               "about":  "About",
+                               "advantages":  "Advantages",
+                               "specs":  "Specifications",
+                               "applications":  "Applications",
+                               "technology":  "Technology",
+                               "contact":  "Contact"
+                           }
+               },
+    "hero":  {
+                 "kicker":  "Clean-Tech Minimal",
+                 "title":  "Marketing website done with Nuxt",
+                 "subtitle":  "A clean, fast landing page focused on product value, technical credibility, and lead generation.",
+                 "cta":  {
+                             "primary":  "Get started",
+                             "secondary":  "View contacts"
+                         }
+             },
+    "about":  {
+                  "kicker":  "Project overview",
+                  "title":  "A single-page product story for the Chinese market",
+                  "description":  "We present your solution clearly, build trust with technical details, and guide visitors to a conversion action.",
+                  "stats":  [
+                                {
+                                    "label":  "Projects delivered",
+                                    "value":  "120+"
+                                },
+                                {
+                                    "label":  "Client satisfaction",
+                                    "value":  "99%"
+                                }
+                            ],
+                  "side":  {
+                               "kicker":  "Positioning",
+                               "title":  "Built to communicate value in under 10 seconds",
+                               "description":  "Each block is designed to reduce friction and move visitors from first impression to inquiry."
+                           }
+              },
+    "advantages":  {
+                       "title":  "Everything you need to start a website",
+                       "description":  "A balanced combination of speed, structure, and SEO readiness for a production launch.",
+                       "items":  [
+                                     {
+                                         "title":  "Fast first paint",
+                                         "description":  "Optimized Nuxt rendering and lightweight UI patterns for quick loading."
+                                     },
+                                     {
+                                         "title":  "SEO by default",
+                                         "description":  "Meta tags, Open Graph, and semantic structure are prepared from day one."
+                                     },
+                                     {
+                                         "title":  "Clean component architecture",
+                                         "description":  "Landing sections are modular and easy to extend without refactoring."
+                                     },
+                                     {
+                                         "title":  "i18n ready",
+                                         "description":  "All visible content is localized for English and Chinese audiences."
+                                     },
+                                     {
+                                         "title":  "Responsive layout",
+                                         "description":  "Designed for desktop, tablet, and mobile with consistent spacing."
+                                     },
+                                     {
+                                         "title":  "Lead capture flow",
+                                         "description":  "Built-in CTA and contact block to collect incoming requests."
+                                     }
+                                 ]
+                   },
+    "specs":  {
+                  "title":  "Specifications",
+                  "description":  "Core project parameters and technical foundation for stable growth.",
+                  "items":  [
+                                {
+                                    "label":  "Framework",
+                                    "value":  "Nuxt 4 + Vue 3"
+                                },
+                                {
+                                    "label":  "Localization",
+                                    "value":  "English / Chinese"
+                                },
+                                {
+                                    "label":  "UI stack",
+                                    "value":  "Nuxt UI + Tailwind"
+                                },
+                                {
+                                    "label":  "Delivery model",
+                                    "value":  "Single-page landing"
+                                }
+                            ]
+              },
+    "applications":  {
+                         "kicker":  "Use cases",
+                         "title":  "Build better products with insights \u0026 inspiration",
+                         "description":  "Use this structure for different go-to-market scenarios.",
+                         "filters":  {
+                                         "all":  "All",
+                                         "design":  "Design",
+                                         "product":  "Product",
+                                         "growth":  "Startup Growth"
+                                     },
+                         "items":  [
+                                       {
+                                           "meta":  "May 22, 2025 · Startup Growth",
+                                           "title":  "Measure what matters: essential KPIs for product success",
+                                           "description":  "Focus on metrics that drive growth and user satisfaction."
+                                       },
+                                       {
+                                           "meta":  "April 08, 2025 · Product",
+                                           "title":  "Speed matters: building lightning-fast apps users love",
+                                           "description":  "Performance optimization techniques that actually move the needle."
+                                       },
+                                       {
+                                           "meta":  "March 12, 2025 · Product",
+                                           "title":  "Design smarter: how user behavior shapes winning products",
+                                           "description":  "Learn how to discover what users truly want and build with confidence."
+                                       }
+                                   ]
+                     },
+    "technology":  {
+                       "title":  "Technology",
+                       "description":  "Works with modern frontend and growth tooling.",
+                       "stack":  {
+                                     "nuxt":  "Nuxt",
+                                     "vue":  "Vue",
+                                     "tailwind":  "Tailwind",
+                                     "typescript":  "TypeScript",
+                                     "cloud":  "Cloud",
+                                     "seo":  "SEO"
+                                 }
+                   },
+    "contact":  {
+                    "title":  "Explore insights, stories, and strategies",
+                    "description":  "Join subscribers receiving practical updates on product, growth, and technology.",
+                    "form":  {
+                                 "name":  "Your name",
+                                 "email":  "Your email",
+                                 "message":  "Tell us about your project",
+                                 "submit":  "Subscribe"
+                             },
+                    "cta":  "Open contacts",
+                    "modal":  {
+                                  "title":  "Contact us",
+                                  "description":  "Choose your preferred channel and message us directly.",
+                                  "telegram":  "Telegram",
+                                  "whatsapp":  "WhatsApp",
+                                  "gmail":  "Gmail",
+                                  "close":  "Close"
+                              }
+                },
+    "footer":  {
+                   "tagline":  "Minimal Nuxt landing framework for multilingual product presentation and lead generation.",
+                   "productTitle":  "Product",
+                   "product":  {
+                                   "about":  "About",
+                                   "advantages":  "Advantages",
+                                   "specs":  "Specifications"
+                               },
+                   "contactTitle":  "Contact",
+                   "contact":  {
+                                   "location":  "Almaty, Kazakhstan"
+                               },
+                   "copy":  "© 2026 Nuxtship. All rights reserved."
+               }
+}

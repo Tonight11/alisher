@@ -1,0 +1,180 @@
+﻿{
+  "seo": {
+    "title": "面向中国市场的清洁科技落地页",
+    "description": "一个快速、极简且 SEO 友好的落地页，用于展示产品价值并收集潜在客户。"
+  },
+  "header": {
+    "logoAlt": "项目标志",
+    "cta": "联系我们",
+    "lang": {
+      "en": "EN",
+      "zh": "中文"
+    },
+    "mobile": {
+      "open": "打开菜单",
+      "close": "关闭菜单"
+    },
+    "nav": {
+      "about": "关于",
+      "advantages": "优势",
+      "specs": "规格",
+      "applications": "应用场景",
+      "technology": "技术",
+      "contact": "联系"
+    }
+  },
+  "hero": {
+    "kicker": "清洁科技 · 极简风格",
+    "title": "使用 Nuxt 打造营销网站",
+    "subtitle": "一个干净、快速的落地页，聚焦产品价值、技术可信度和线索转化。",
+    "cta": {
+      "primary": "开始使用",
+      "secondary": "查看联系方式"
+    }
+  },
+  "about": {
+    "kicker": "项目概览",
+    "title": "面向中国市场的单页产品叙事",
+    "description": "清晰传达解决方案，用技术细节建立信任，并引导用户完成转化。",
+    "stats": [
+      {
+        "label": "已交付项目",
+        "value": "120+"
+      },
+      {
+        "label": "客户满意度",
+        "value": "99%"
+      }
+    ],
+    "side": {
+      "kicker": "定位",
+      "title": "在 10 秒内清晰传达产品价值",
+      "description": "每个模块都围绕降低理解成本与提高转化而设计。"
+    }
+  },
+  "advantages": {
+    "title": "开启网站所需的一切",
+    "description": "为正式上线准备的速度、结构和 SEO 能力。",
+    "items": [
+      {
+        "title": "首屏加载更快",
+        "description": "通过 Nuxt 渲染与轻量 UI 模式提升访问速度。"
+      },
+      {
+        "title": "SEO 默认就绪",
+        "description": "元信息、Open Graph 和语义结构从第一天开始可用。"
+      },
+      {
+        "title": "清晰的组件架构",
+        "description": "各落地页区块可模块化扩展，无需重构。"
+      },
+      {
+        "title": "i18n 已准备",
+        "description": "所有可见内容支持英文与中文。"
+      },
+      {
+        "title": "响应式体验",
+        "description": "面向桌面、平板和手机进行一致的布局设计。"
+      },
+      {
+        "title": "线索收集闭环",
+        "description": "内置 CTA 与联系区块，直接收集潜在客户。"
+      }
+    ]
+  },
+  "specs": {
+    "title": "核心规格",
+    "description": "支持项目稳定增长的技术基座。",
+    "items": [
+      {
+        "label": "框架",
+        "value": "Nuxt 4 + Vue 3"
+      },
+      {
+        "label": "本地化",
+        "value": "英文 / 中文"
+      },
+      {
+        "label": "UI 栈",
+        "value": "Nuxt UI + Tailwind"
+      },
+      {
+        "label": "交付形态",
+        "value": "单页落地页"
+      }
+    ]
+  },
+  "applications": {
+    "kicker": "应用场景",
+    "title": "用洞察与灵感构建更好产品",
+    "description": "此结构可适配多种增长场景。",
+    "filters": {
+      "all": "全部",
+      "design": "设计",
+      "product": "产品",
+      "growth": "增长"
+    },
+    "items": [
+      {
+        "meta": "2025年5月22日 · 增长",
+        "title": "关键 KPI 与产品成功",
+        "description": "关注真正推动增长和用户满意的指标。"
+      },
+      {
+        "meta": "2025年4月8日 · 产品",
+        "title": "性能优先：打造闪电般体验",
+        "description": "能实际提升效果的性能优化方法。"
+      },
+      {
+        "meta": "2025年3月12日 · 产品",
+        "title": "设计更智能：用户行为决定胜出",
+        "description": "发现用户真实需求，并有信心地构建产品。"
+      }
+    ]
+  },
+  "technology": {
+    "title": "技术",
+    "description": "适配现代前端与增长工具。",
+    "stack": {
+      "nuxt": "Nuxt",
+      "vue": "Vue",
+      "tailwind": "Tailwind",
+      "typescript": "TypeScript",
+      "cloud": "Cloud",
+      "seo": "SEO"
+    }
+  },
+  "contact": {
+    "title": "获取洞察、故事与策略",
+    "description": "加入订阅者名单，获取产品与增长实战更新。",
+    "form": {
+      "name": "姓名",
+      "email": "你的邮箱",
+      "message": "请介绍你的项目",
+      "submit": "订阅"
+    },
+    "cta": "打开联系方式",
+    "modal": {
+      "title": "联系我们",
+      "description": "请选择最方便的渠道，直接给我们发消息。",
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "gmail": "Gmail",
+      "close": "关闭"
+    }
+  },
+  "footer": {
+    "tagline": "面向多语产品展示与线索转化的 Nuxt 极简落地结构。",
+    "productTitle": "产品",
+    "product": {
+      "about": "关于",
+      "advantages": "优势",
+      "specs": "规格"
+    },
+    "contactTitle": "联系方式",
+    "contact": {
+      "location": "阿拉木图，哈萨克斯坦"
+    },
+    "copy": "© 2026 Nuxtship. 保留所有权利。"
+  }
+}

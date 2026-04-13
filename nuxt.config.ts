@@ -1,7 +1,6 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+﻿// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/eslint',
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxtjs/i18n',
@@ -20,14 +19,16 @@ export default defineNuxtConfig({
     '/': { prerender: true }
   },
 
-  compatibilityDate: '2025-01-15',
+  i18n: {
+    langDir: 'locales',
+    strategy: 'no_prefix',
+    defaultLocale: 'en',
+    detectBrowserLanguage: false,
+    locales: [
+      { code: 'en', language: 'en-US', file: 'en.json', name: 'English' },
+      { code: 'zh', language: 'zh-CN', file: 'zh.json', name: '\u4e2d\u6587' }
+    ]
+  },
 
-  eslint: {
-    config: {
-      stylistic: {
-        commaDangle: 'never',
-        braceStyle: '1tbs'
-      }
-    }
-  }
+  compatibilityDate: '2025-01-15'
 })
