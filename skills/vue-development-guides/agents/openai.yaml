@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Vue Development Guides"
+  short_description: "Vue 3 and Nuxt 3 architecture and coding guides"
+  default_prompt: "Use $vue-development-guides to implement and review Vue/Nuxt components using the provided references."
