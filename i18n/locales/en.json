@@ -30,7 +30,34 @@
                  "cta":  {
                              "primary":  "Get started",
                              "secondary":  "View contacts"
-                         }
+                         },
+                 "trust": {
+                     "ratio": "High client to account manager ratio",
+                     "framework": "Tested & Proven Framework"
+                 },
+                 "cards": {
+                     "performance": {
+                         "title": "Performance",
+                         "period": "Last week"
+                     },
+                     "automation": {
+                         "tag": "Automation",
+                         "title": "Quick start",
+                         "desc": "Essential rules for pausing, starting, and scaling resources.",
+                         "rules": "3 rules",
+                         "clones": "1,253 clones"
+                     },
+                     "campaigns": {
+                         "title": "52 campaigns",
+                         "period": "Last 7 days",
+                         "filter_active": "Active",
+                         "filter_roi": "ROI > 150%",
+                         "acq_title": "Acquisition",
+                         "acq_sets": "12 active sets",
+                         "ret_title": "Retargeting",
+                         "ret_sets": "4 active sets"
+                     }
+                 }
              },
     "about":  {
                   "kicker":  "Project overview",
@@ -53,6 +80,7 @@
                            }
               },
     "advantages":  {
+                       "kicker": "Why choose us",
                        "title":  "Everything you need to start a website",
                        "description":  "A balanced combination of speed, structure, and SEO readiness for a production launch.",
                        "items":  [
@@ -83,6 +111,7 @@
                                  ]
                    },
     "specs":  {
+                  "kicker": "Parameters",
                   "title":  "Specifications",
                   "description":  "Core project parameters and technical foundation for stable growth.",
                   "items":  [
@@ -130,11 +159,13 @@
                                            "title":  "Design smarter: how user behavior shapes winning products",
                                            "description":  "Learn how to discover what users truly want and build with confidence."
                                        }
-                                   ]
+                                   ],
+                         "readArticle": "Read article"
                      },
     "technology":  {
                        "title":  "Technology",
                        "description":  "Works with modern frontend and growth tooling.",
+                       "poweredBy": "Powered by",
                        "stack":  {
                                      "nuxt":  "Nuxt",
                                      "vue":  "Vue",
@@ -147,6 +178,7 @@
     "contact":  {
                     "title":  "Explore insights, stories, and strategies",
                     "description":  "Join subscribers receiving practical updates on product, growth, and technology.",
+                    "kicker": "Connect with us",
                     "form":  {
                                  "name":  "Your name",
                                  "email":  "Your email",

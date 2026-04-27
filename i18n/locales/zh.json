@@ -1,4 +1,4 @@
-﻿{
+{
   "seo": {
     "title": "面向中国市场的清洁科技落地页",
     "description": "一个快速、极简且 SEO 友好的落地页，用于展示产品价值并收集潜在客户。"
@@ -30,6 +30,33 @@
     "cta": {
       "primary": "开始使用",
       "secondary": "查看联系方式"
+    },
+    "trust": {
+      "ratio": "高客户与客户经理比例",
+      "framework": "经过测试与验证的框架"
+    },
+    "cards": {
+      "performance": {
+        "title": "性能",
+        "period": "上周"
+      },
+      "automation": {
+        "tag": "自动化",
+        "title": "快速启动",
+        "desc": "管理、暂停与扩展资源的基本规则。",
+        "rules": "3 条规则",
+        "clones": "1,253 个克隆"
+      },
+      "campaigns": {
+        "title": "52 个活动",
+        "period": "过去 7 天",
+        "filter_active": "活跃",
+        "filter_roi": "ROI > 150%",
+        "acq_title": "获客",
+        "acq_sets": "12 个活跃组",
+        "ret_title": "重定向",
+        "ret_sets": "4 个活跃组"
+      }
     }
   },
   "about": {
@@ -53,6 +80,7 @@
     }
   },
   "advantages": {
+    "kicker": "为什么选择我们",
     "title": "开启网站所需的一切",
     "description": "为正式上线准备的速度、结构和 SEO 能力。",
     "items": [
@@ -83,6 +111,7 @@
     ]
   },
   "specs": {
+    "kicker": "参数",
     "title": "核心规格",
     "description": "支持项目稳定增长的技术基座。",
     "items": [
@@ -130,11 +159,13 @@
         "title": "设计更智能：用户行为决定胜出",
         "description": "发现用户真实需求，并有信心地构建产品。"
       }
-    ]
+    ],
+    "readArticle": "阅读文章"
   },
   "technology": {
     "title": "技术",
     "description": "适配现代前端与增长工具。",
+    "poweredBy": "驱动技术",
     "stack": {
       "nuxt": "Nuxt",
       "vue": "Vue",
@@ -147,6 +178,7 @@
   "contact": {
     "title": "获取洞察、故事与策略",
     "description": "加入订阅者名单，获取产品与增长实战更新。",
+    "kicker": "联系我们",
     "form": {
       "name": "姓名",
       "email": "你的邮箱",

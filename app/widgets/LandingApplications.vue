@@ -67,7 +67,7 @@ function slide(direction: 1 | -1) {
              <p class="mt-3 text-neutral-600 leading-relaxed flex-1">{{ t(`applications.items.${card.key}.description`) }}</p>
              
              <div class="mt-6 flex items-center text-sm font-bold text-[#0b3b24] group-hover:text-[#082a1a]">
-                Read article
+                {{ t('applications.readArticle') }}
                 <UIcon name="i-lucide-arrow-right" class="ml-1.5 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
              </div>
           </div>

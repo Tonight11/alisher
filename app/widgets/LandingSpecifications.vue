@@ -8,7 +8,7 @@ const { t } = useI18n()
       <div class="text-center max-w-3xl mx-auto mb-16">
         <div class="mb-4 inline-flex items-center gap-1.5 rounded-full bg-neutral-100 px-3 py-1.5 text-xs font-semibold text-neutral-600">
           <UIcon name="i-lucide-settings-2" class="h-3.5 w-3.5" />
-          <span class="uppercase tracking-wider">Parameters</span>
+          <span class="uppercase tracking-wider">{{ t('specs.kicker') }}</span>
         </div>
         <h2 class="text-4xl md:text-5xl font-extrabold text-neutral-950">{{ t('specs.title') }}</h2>
         <p class="mt-5 text-lg text-neutral-600">{{ t('specs.description') }}</p>

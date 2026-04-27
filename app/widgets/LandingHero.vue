@@ -60,8 +60,8 @@ const cardTransform = computed(() => {
           <div class="reveal reveal-delay-3 mt-12 pt-8 flex items-center gap-4 border-t border-neutral-200/60">
              <UAvatar src="https://i.pravatar.cc/100?img=33" size="lg" class="ring-2 ring-white shadow-md" />
              <div>
-                <p class="text-sm font-bold text-neutral-900">High client to account manager ratio</p>
-                <p class="text-xs text-neutral-500 mt-0.5">Tested & Proven Framework</p>
+                <p class="text-sm font-bold text-neutral-900">{{ t('hero.trust.ratio') }}</p>
+                <p class="text-xs text-neutral-500 mt-0.5">{{ t('hero.trust.framework') }}</p>
              </div>
           </div>
         </div>
@@ -83,8 +83,8 @@ const cardTransform = computed(() => {
                         </div>
                     </div>
                     <div class="mb-2">
-                        <p class="text-lg font-bold text-black">Performance</p>
-                        <p class="text-xs font-medium text-black/60">Last week</p>
+                        <p class="text-lg font-bold text-black">{{ t('hero.cards.performance.title') }}</p>
+                        <p class="text-xs font-medium text-black/60">{{ t('hero.cards.performance.period') }}</p>
                     </div>
                     <div class="flex items-end gap-2 h-24 mt-6">
                         <div class="w-full bg-black/10 rounded-t-md h-1/3 animate-[pulse_3s_ease-in-out_infinite]"></div>
@@ -104,31 +104,31 @@ const cardTransform = computed(() => {
                             <UIcon name="i-lucide-zap" class="h-5 w-5 text-white" />
                         </div>
                         <div>
-                            <p class="text-xs font-medium text-black/60">Automation</p>
-                            <p class="text-lg font-bold text-black leading-tight">Quick start</p>
+                            <p class="text-xs font-medium text-black/60">{{ t('hero.cards.automation.tag') }}</p>
+                            <p class="text-lg font-bold text-black leading-tight">{{ t('hero.cards.automation.title') }}</p>
                         </div>
                     </div>
-                    <p class="text-sm text-black/70 font-medium mb-6 leading-snug">Essential rules for pausing, starting, and scaling resources.</p>
+                    <p class="text-sm text-black/70 font-medium mb-6 leading-snug">{{ t('hero.cards.automation.desc') }}</p>
                     <div class="flex gap-2">
                         <div class="bg-black/5 rounded-lg px-3 py-1.5 text-xs font-bold text-black flex items-center gap-1.5 hover:bg-white hover:shadow-sm transition-all cursor-pointer">
-                            <UIcon name="i-lucide-check-circle" class="h-3 w-3" /> 3 rules
+                            <UIcon name="i-lucide-check-circle" class="h-3 w-3" /> {{ t('hero.cards.automation.rules') }}
                         </div>
                         <div class="bg-black/5 rounded-lg px-3 py-1.5 text-xs font-bold text-black flex items-center gap-1.5 hover:bg-white hover:shadow-sm transition-all cursor-pointer">
-                            <UIcon name="i-lucide-copy" class="h-3 w-3" /> 1,253 clones
+                            <UIcon name="i-lucide-copy" class="h-3 w-3" /> {{ t('hero.cards.automation.clones') }}
                         </div>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
                 <div class="absolute top-64 left-10 w-[340px] rounded-3xl bg-[#0b3b24] p-6 shadow-2xl shadow-green-950/20 z-20 hover:-translate-y-4 transition-all duration-500" style="transform-style: preserve-3d; transform: translateZ(50px);">
-                    <p class="text-lg font-bold text-white">52 campaigns</p>
-                    <p class="text-xs font-medium text-white/60 mb-4">Last 7 days</p>
+                    <p class="text-lg font-bold text-white">{{ t('hero.cards.campaigns.title') }}</p>
+                    <p class="text-xs font-medium text-white/60 mb-4">{{ t('hero.cards.campaigns.period') }}</p>
                     <div class="flex gap-2 mb-6">
                         <div class="border border-white/20 rounded-md px-2 py-1 text-xs text-white flex items-center gap-1 cursor-pointer hover:bg-white/10 transition-colors">
-                            Active <UIcon name="i-lucide-x" class="h-3 w-3 opacity-50" />
+                            {{ t('hero.cards.campaigns.filter_active') }} <UIcon name="i-lucide-x" class="h-3 w-3 opacity-50" />
                         </div>
                         <div class="border border-white/20 rounded-md px-2 py-1 text-xs text-white flex items-center gap-1 cursor-pointer hover:bg-white/10 transition-colors">
-                            ROI > 150% <UIcon name="i-lucide-x" class="h-3 w-3 opacity-50" />
+                            {{ t('hero.cards.campaigns.filter_roi') }} <UIcon name="i-lucide-x" class="h-3 w-3 opacity-50" />
                         </div>
                         <div class="border border-white/20 rounded-md px-2 py-1 text-xs text-white flex items-center justify-center ml-auto cursor-pointer hover:bg-white/10 transition-colors">
                             <UIcon name="i-lucide-filter" class="h-3 w-3" />
@@ -141,8 +141,8 @@ const cardTransform = computed(() => {
                                 <UIcon name="i-lucide-target" class="h-4 w-4" />
                             </div>
                             <div class="flex-1">
-                                <p class="text-xs font-bold text-black">Acquisition</p>
-                                <p class="text-[9px] text-black/50">12 active sets</p>
+                                <p class="text-xs font-bold text-black">{{ t('hero.cards.campaigns.acq_title') }}</p>
+                                <p class="text-[9px] text-black/50">{{ t('hero.cards.campaigns.acq_sets') }}</p>
                             </div>
                             <div class="text-right">
                                 <p class="text-xs font-bold text-black">$1,421.34</p>
@@ -153,8 +153,8 @@ const cardTransform = computed(() => {
                                 <UIcon name="i-lucide-users" class="h-4 w-4" />
                             </div>
                             <div class="flex-1">
-                                <p class="text-xs font-bold text-white">Retargeting</p>
-                                <p class="text-[9px] text-white/50">4 active sets</p>
+                                <p class="text-xs font-bold text-white">{{ t('hero.cards.campaigns.ret_title') }}</p>
+                                <p class="text-[9px] text-white/50">{{ t('hero.cards.campaigns.ret_sets') }}</p>
                             </div>
                             <div class="text-right">
                                 <p class="text-xs font-bold text-white">$24.05</p>

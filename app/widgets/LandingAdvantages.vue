@@ -8,7 +8,7 @@ const { t } = useI18n()
       <div class="text-center max-w-3xl mx-auto mb-16">
         <div class="mb-4 inline-flex items-center gap-1.5 rounded-full bg-neutral-100 px-3 py-1.5 text-xs font-semibold text-neutral-600">
           <UIcon name="i-lucide-sparkles" class="h-3.5 w-3.5" />
-          <span class="uppercase tracking-wider">Why choose us</span>
+          <span class="uppercase tracking-wider">{{ t('advantages.kicker') }}</span>
         </div>
         <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight text-neutral-950">{{ t('advantages.title') }}</h2>
         <p class="mt-4 text-lg text-neutral-600">{{ t('advantages.description') }}</p>
