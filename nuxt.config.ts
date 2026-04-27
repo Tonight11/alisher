@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     '@vueuse/nuxt'
   ],
 
+  sourcemap: false,
+
   devtools: {
     enabled: true
   },
